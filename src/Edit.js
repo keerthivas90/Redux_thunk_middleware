@@ -20,7 +20,7 @@ const Edit = () => {
       name:currentname,
       email:currentemail
     })); 
-    navigate("/Redux_crud_middleware");
+    navigate("/Redux_thunk_middleware");
 
   }
   return (

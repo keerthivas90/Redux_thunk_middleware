@@ -14,9 +14,9 @@ function App() {
        
          <BrowserRouter>
             <Routes>
-              <Route path='/Redux_crud_middleware' element={<Home />} /> 
-              <Route path='/Redux_crud_middleware/Create' element={<CreateApp />} /> 
-              <Route path='/Redux_crud_middleware/Edit/:id' element={<Edit />} /> 
+              <Route path='/Redux_thunk_middleware' element={<Home />} /> 
+              <Route path='/Redux_thunk_middleware/Create' element={<CreateApp />} /> 
+              <Route path='/Redux_thunk_middleware/Edit/:id' element={<Edit />} /> 
             </Routes>         
          </BrowserRouter>
       

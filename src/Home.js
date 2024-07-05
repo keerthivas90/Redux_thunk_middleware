@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div className='container'>
         <h1> CRUD  </h1>
-        <Link to="Redux_crud_middleware/Create" className='btn btn-success my-3' >Create</Link>
+        <Link to="/Redux_thunk_middleware/Create" className='btn btn-success my-3' >Create</Link>
         <table className='table' >
           <thead>
             <tr>
@@ -40,7 +40,7 @@ const Home = () => {
               <td> {user.name}</td>  
               <td> {user.email}</td>  
                 <td>
-                  <Link to={`/Redux_crud_middleware/Edit/${user.id}`}  className='btn btn-sm btn-primary'>Edit</Link>
+                  <Link to={`/Redux_thunk_middleware/Edit/${user.id}`}  className='btn btn-sm btn-primary'>Edit</Link>
                   <button onClick={()=>handleDelete(user.id,user.name,user.email)} className='btn btn-sm btn-danger ms-2'>Delete</button>
                 </td>
               </tr>

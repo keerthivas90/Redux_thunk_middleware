@@ -17,7 +17,7 @@ const CreateApp = () => {
       name,
       email
     }));
-    navigate("/Redux_crud_middleware");
+    navigate("/Redux_thunk_middleware");
   }
    
   return (
