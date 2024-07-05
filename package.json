@@ -2,7 +2,7 @@
   "name": "reduxcrudmiddleware",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://keerthivas90.github.io/Redux_crud_middleware",
+"homepage": "https://keerthivas90.github.io/Redux_thunk_middleware",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
     "@testing-library/jest-dom": "^5.17.0",
